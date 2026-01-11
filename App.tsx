@@ -238,7 +238,7 @@ const App: React.FC = () => {
             <Info size={24} />
           </div>
           <p className="text-sm text-gray-500 leading-relaxed text-justify">
-            2 日未签到，系统将以你的名义，在次日邮件通知你的紧急联系人。请确保 API Key 设置正确。
+            2 日未签到，系统将以你的名义，在次日邮件通知你的紧急联系人。
           </p>
         </div>
       </div>

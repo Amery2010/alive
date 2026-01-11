@@ -3,12 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alive (活着呢)</title>
+    <title>活着呢</title>
+    <meta name="description" content="一款数字死亡警报应用。如果您在 48 小时内没有签到，系统将向您的紧急联系人发送电子邮件。" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="活着呢" />
+    <meta property="og:description" content="一款数字紧急呼叫开关应用。提供48小时签到或紧急邮件功能。" />
+    <meta property="og:image" content="https://cdn.u14.app/upload/alive.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Alive (活着呢)" />
+    <meta property="twitter:description" content="一款数字紧急呼叫开关应用。提供48小时签到或紧急邮件功能。" />
+    <meta property="twitter:image" content="https://cdn.u14.app/upload/alive.png" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
       body {
-        font-family: 'Inter', sans-serif;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
         background-color: #f9fafb;
       }
       /* Custom pulse animation for the button */
@@ -21,18 +34,20 @@
         animation: soft-pulse 2s infinite;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-  }
-}
-</script>
-</head>
+    <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://aistudiocdn.com/lucide-react@0.555.0",
+        "react": "https://aistudiocdn.com/react@19.2.0",
+        "react/": "https://aistudiocdn.com/react@19.2.0/",
+        "react-dom": "https://aistudiocdn.com/react-dom@19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@19.2.0/"
+      }
+    }
+    </script>
+  </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
