@@ -1,0 +1,5 @@
+{
+  "name": "Alive (活着呢)",
+  "description": "A digital dead man's switch application that sends an emergency email via Resend if the user fails to check in within 48 hours.",
+  "requestFramePermissions": []
+}
